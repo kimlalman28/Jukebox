@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jukebox</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+	<body>
+		<h1>Jukebox</h1>
+		
+
+		<div id="list">
+		<p>Song Selection:</p>
+		<ul id="playlist">
+			<li id="0">Kiss The Sky</li>
+			<li id="1">Follow Your Dreams</li>
+			<li id="2">Space Outro</li>
+			<li id="3">Hachiko the Faithful Dog</li>
+		</ul>
+		</div>
+
+		<div id="buttondiv">
+		<button id="play"><img src="http://www.iconsplace.com/icons/preview/purple/play-256.png" class="buttons"></button>
+		<button id="pause"><img src="http://www.iconsplace.com/download/purple-pause-512.png" class="buttons"></button>
+		<button id="stop"><img src="http://www.iconsplace.com/download/purple-stop-512.png" class="buttons"></button>
+		<button id="next"><img src="http://www.iconsplace.com/icons/preview/purple/end-64.png" class="buttons"></button>
+		</div>
+		
+		<h2 id="songname"> </h2>
+
+		<form action="">
+			<input type="text" placeholder="Enter a song: ">
+			<input type="submit" value="search">
+		</form>
+		
+		<audio src="Scott_Holmes_-_03_-_Kiss_The_Sky.mp3" id="song0"></audio>
+		<audio src="Scott_Holmes_-_06_-_Follow_Your_Dreams.mp3" id="song1"></audio>
+		<audio src="Andy_G_Cohen_-_11_-_Space_Outro.mp3" id="song2"></audio>
+		<audio src="The_Kyoto_Connection_-_09_-_Hachiko_The_Faithtful_Dog.mp3" id="song3"></audio>
+
+		<h6>*Press play button to play loaded song.</h6>
+
+		<script
+  		src="http://code.jquery.com/jquery-3.1.1.min.js"
+  		integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  		crossorigin="anonymous"></script>
+		<script src="script.js"></script>
+	</body>
+</html>

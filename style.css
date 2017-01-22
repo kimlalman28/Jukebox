@@ -1,0 +1,86 @@
+body{
+	background-image: url(http://wallpapercave.com/wp/P3EtD4C.jpg);
+	background-size: cover;
+}
+
+
+h1{
+	color: orchid;
+	text-align: center;
+	font-family: Papyrus;
+	font-size: 60px;
+}
+
+h2{
+	text-align: center;
+	font-family: Papyrus;
+	color: orchid;
+	font-size: 30px
+}
+
+#buttondiv{
+	text-align: center;
+
+}
+
+p{
+	font-family: Papyrus;
+	font-size: 20px;
+	color: orchid;
+}
+
+#list{
+	text-align: center;
+}
+
+.buttons{
+	height: 100px;
+	width: 100px;
+	background-color: violet;
+	border: solid;
+	border-color: purple;
+	background-size: cover;
+	
+}
+
+.buttons:hover{
+	background: pink;
+}
+
+ul li{
+	display: inline-block;
+	text-decoration: none;
+	font-family: Papyrus;
+	font-size: 20px;
+	padding: 15px;
+	color: orchid;
+	text-align: center;
+}
+
+ul li:hover{
+	background: pink;
+}
+
+form{
+	text-align: center;
+}
+
+input[type=text]{
+	border: solid;
+	border-color: violet;
+	width: 35%;
+	height: 40px;
+	color: purple;
+	font-size: 30px;
+	font-family: Papyrus;
+}
+
+input[type=submit]{
+	color: black;
+	font-size: 20px;
+	border: solid;
+	border-color: violet;
+	font-family: Papyrus;
+	background-color: purple;
+
+}
